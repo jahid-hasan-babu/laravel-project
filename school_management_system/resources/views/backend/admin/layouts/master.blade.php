@@ -71,7 +71,7 @@
         </div>
 
         <!-- Custom template | don't include it in your project! -->
-        <div class="custom-template">
+        {{-- <div class="custom-template">
             <div class="title">Settings</div>
             <div class="custom-content">
                 <div class="switcher">
@@ -130,7 +130,7 @@
             <div class="custom-toggle">
                 <i class="icon-settings"></i>
             </div>
-        </div>
+        </div> --}}
         <!-- End Custom template -->
     </div>
 </body>
@@ -156,7 +156,7 @@
 <script src="{{ asset('backend/admin/assets/js/plugin/datatables/datatables.min.js') }}"></script>
 
 <!-- Bootstrap Notify -->
- <script src="{{ asset('backend/admin/assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js') }}"></script> 
+ {{-- <script src="{{ asset('backend/admin/assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js') }}"></script>  --}}
 
 <!-- jQuery Vector Maps -->
 <script src="{{ asset('backend/admin/assets/js/plugin/jsvectormap/jsvectormap.min.js') }}"></script>

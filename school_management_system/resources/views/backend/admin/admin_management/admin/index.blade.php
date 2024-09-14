@@ -8,9 +8,9 @@
         <div class="card">
             <div class="card-header d-flex justify-content-between align-items-center">
                 <h4 class="card-title">
-                    Admin List
+                    {{ __('Admin List') }}
                 </h4>
-                <a href="{{ route('am.admin.create') }}" class="btn btn-sm btn-primary">Add New</a>
+                <a href="{{ route('am.admin.create') }}" class="btn btn-sm btn-primary"> {{ __('Add New') }}</a>
             </div>
             <div class="card-body table-responsive table-striped">
                 <table class="table">
