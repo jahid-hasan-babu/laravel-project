@@ -35,7 +35,7 @@
     </script>
 
     <!-- CSS Files -->
-    {{-- <link rel="stylesheet" href="{{ asset('backend/admin/assets/css/bootstrap.min.css') }}" /> --}}
+    <link rel="stylesheet" href="{{ asset('backend/admin/assets/css/bootstrap.min.css') }}" /> 
     <link rel="stylesheet" href="{{ asset('backend/admin/assets/css/plugins.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('backend/admin/assets/css/kaiadmin.min.css') }}" />
 
@@ -137,8 +137,8 @@
 
 <!--   Core JS Files   -->
 <script src="{{ asset('backend/admin/assets/js/core/jquery-3.7.1.min.js') }}"></script>
-{{-- <script src="{{ asset('backend/admin/assets/js/core/popper.min.js') }}"></script>
-<script src="{{ asset('backend/admin/assets/js/core/bootstrap.min.js') }}"></script> --}}
+ <script src="{{ asset('backend/admin/assets/js/core/popper.min.js') }}"></script>
+<script src="{{ asset('backend/admin/assets/js/core/bootstrap.min.js') }}"></script> 
 
 <!-- jQuery Scrollbar -->
 <script src="{{ asset('backend/admin/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js') }}"></script>
@@ -156,7 +156,7 @@
 <script src="{{ asset('backend/admin/assets/js/plugin/datatables/datatables.min.js') }}"></script>
 
 <!-- Bootstrap Notify -->
-{{-- <script src="{{ asset('backend/admin/assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js') }}"></script> --}}
+ <script src="{{ asset('backend/admin/assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js') }}"></script> 
 
 <!-- jQuery Vector Maps -->
 <script src="{{ asset('backend/admin/assets/js/plugin/jsvectormap/jsvectormap.min.js') }}"></script>
